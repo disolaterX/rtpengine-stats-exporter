@@ -8,7 +8,7 @@ const app = new Elysia()
     delete json.controlstatistics;
     return json;
   })
-  .listen(3000);
+  .listen(8000);
 
 console.log(
   `🦊 rtpengine stats exporter is running at ${app.server?.hostname}:${app.server?.port}`
