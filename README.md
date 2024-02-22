@@ -14,3 +14,7 @@ You can follow the steps below to set up Node and PM2:
    ```bash
    pm2 restart pm2.config.js
    ```
+4. Save PM2:
+   ```bash
+   pm2 startup && pm2 save
+   ```
