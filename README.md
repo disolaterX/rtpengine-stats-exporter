@@ -1,15 +1,16 @@
-# Elysia with Bun runtime
+## Setup Node & PM2 to run this in demon mode
 
-## Getting Started
-To get started with this template, simply paste this command into your terminal:
-```bash
-bun create elysia ./elysia-example
-```
+You can follow the steps below to set up Node and PM2:
 
-## Development
-To start the development server run:
-```bash
-bun run dev
-```
-
-Open http://localhost:3000/ with your browser to see the result.
+1. Install Node.js:
+   ```bash
+   sudo apt install nodejs
+   ```
+2. Install PM2 globally:
+   ```bash
+   sudo npm install pm2 -g
+   ```
+3. Restart PM2 using the configuration file:
+   ```bash
+   pm2 restart pm2.config.js
+   ```
